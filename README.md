@@ -1,92 +1,85 @@
-# Verity AI 🛡️
+# Verity AI 🛡️ - منصة تحليل مصداقية المحتوى
 
-**Verity AI** is an advanced AI-powered platform designed to analyze content credibility and detect misinformation. Built with Next.js 15 and TypeScript, it provides users with deep insights into text, URLs, and images to ensure digital safety and information integrity.
-
-[العربية](#verity-ai-بالعربية) | [English](#verity-ai-english)
+**Verity AI** هي منصة متقدمة مدعومة بالذكاء الاصطناعي مصممة لتحليل مصداقية المحتوى وكشف المعلومات المضللة في الفضاء الرقمي. تم بناء المنصة باستخدام أحدث تقنيات الويب لضمان السرعة، الدقة، وتجربة مستخدم استثنائية.
 
 ---
 
-## Verity AI (English)
+## 🌟 المميزات الرئيسية (Key Features)
 
-### Key Features
-- **Multi-modal Analysis**: Analyze raw text, web URLs, and images.
-- **Credibility Scoring**: Get a clear score on how trustworthy a piece of content is.
-- **Sentiment & Emotional Analysis**: Understand the underlying tone and emotional impact.
-- **Virality Prediction**: Predict how likely a piece of content is to go viral.
-- **PWA Ready**: Installable as a mobile app for quick access.
-- **Multi-language Support**: Full support for Arabic and English.
+### 1. تحليل متعدد الوسائط (Multi-modal Analysis)
+قدرة فائقة على معالجة وتحليل مختلف أنواع المحتوى:
+- **النصوص الخام**: تحليل السياق والنبرة.
+- **روابط الويب**: فحص مصداقية المصادر والمواقع.
+- **الصور**: (قيد التطوير) الكشف عن التلاعب الصوري.
 
-### Tech Stack
-- **Framework**: Next.js 15 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **UI Components**: Radix UI / Shadcn UI
-- **State Management**: Zustand
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
+### 2. درجة المصداقية (Credibility Scoring)
+نظام تقييم رقمي ذكي يعطي مؤشراً واضحاً حول مدى موثوقية المحتوى بناءً على معايير محددة.
 
-### Getting Started
+### 3. تحليل المشاعر والعواطف (Sentiment Analysis)
+فهم النبرة العاطفية الكامنة خلف النصوص للكشف عن محاولات التأثير الموجه أو التحريض.
 
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   # or
-   pnpm install
-   # or
-   bun install
-   ```
+### 4. توقع الانتشار (Virality Prediction)
+خوارزميات تتنبأ بمدى احتمالية انتشار المحتوى بشكل واسع عبر منصات التواصل الاجتماعي.
 
-2. **Run Development Server**:
-   ```bash
-   npm run dev
-   ```
-
-3. **Build for Production**:
-   ```bash
-   npm run build
-   ```
+### 5. دعم كامل للغات (Multi-language Support)
+واجهة مستخدم ثنائية اللغة (عربية/إنجليزية) مع دعم كامل لخصائص الـ RTL (من اليمين إلى اليسار).
 
 ---
 
-## Verity AI (بالعربية)
+## 🛠️ التكنولوجيا المستخدمة (Tech Stack)
 
-**Verity AI** هي منصة متقدمة مدعومة بالذكاء الاصطناعي مصممة لتحليل مصداقية المحتوى وكشف المعلومات المضللة. تم بناؤها باستخدام Next.js 15 و TypeScript، وتوفر للمستخدمين رؤى عميقة حول النصوص والروابط والصور لضمان السلامة الرقمية ونزاهة المعلومات.
+| التقنية | الوصف |
+| :--- | :--- |
+| **Next.js 16 (App Router)** | إطار العمل الأساسي لضمان أفضل أداء SEO وسرعة تحميل. |
+| **TypeScript** | لضمان جودة الكود وتقليل الأخطاء البرمجية. |
+| **Tailwind CSS 4** | لتصميم واجهات عصرية، سريعة الاستجابة، وخفيفة الوزن. |
+| **Lucide React** | مكتبة أيقونات احترافية ومتناسقة. |
+| **Framer Motion** | لإضافة حركات وتفاعلات سلسة تعزز تجربة المستخدم. |
 
-### المميزات الرئيسية
-- **تحليل متعدد الوسائط**: تحليل النصوص الروابط، والصور.
-- **درجة المصداقية**: الحصول على درجة واضحة توضح مدى موثوقية المحتوى.
-- **تحليل المشاعر والعواطف**: فهم النبرة الأساسية والتأثير العاطفي للمحتوى.
-- **توقع الانتشار**: التنبؤ بمدى احتمالية انتشار المحتوى بشكل واسع.
-- **تطبيق ويب تقدمي (PWA)**: قابل للتثبيت كتطبيق هاتف لسهولة الوصول.
-- **دعم لغات متعددة**: دعم كامل للغتين العربية والإنجليزية.
+---
 
-### التقنيات المستخدمة
-- **الإطار البرمجي**: Next.js 15 (App Router)
-- **لغة البرمجة**: TypeScript
-- **التنسيق**: Tailwind CSS
-- **مكونات الواجهة**: Radix UI / Shadcn UI
-- **إدارة الحالة**: Zustand
-- **التحريك**: Framer Motion
-- **الأيقونات**: Lucide React
+## 🚀 البدء بالعمل (Getting Started)
 
-### البدء بالعمل
+### المتطلبات الأساسية
+- Node.js 18.x أو أحدث.
+- npm أو pnpm أو bun.
 
+### خطوات التشغيل المحلي
 1. **تثبيت التبعيات**:
    ```bash
    npm install
    ```
-
-2. **تشغيل سيرفر التطوير**:
+2. **إعداد المتغيرات البيئية**:
+   قم بنسخ ملف `.env.example` إلى `.env.local` وقم بتعبئة القيم المطلوبة.
+3. **تشغيل سيرفر التطوير**:
    ```bash
    npm run dev
    ```
-
-3. **بناء المشروع للإنتاج**:
+4. **بناء المشروع للإنتاج**:
    ```bash
    npm run build
    ```
 
 ---
 
-## License
-This project is licensed under the MIT License.
+## 📦 هيكل المشروع (Project Structure)
+
+```text
+src/
+├── app/              # المسارات والصفحات (Next.js App Router)
+│   ├── api/          # نقاط نهاية الـ API (مثل /api/analyze)
+│   ├── globals.css   # التنسيقات العامة والمتغيرات
+│   └── layout.tsx    # الهيكل العام للتطبيق
+├── components/       # مكونات الواجهة القابلة لإعادة الاستخدام
+├── lib/              # الدوال المساعدة والأدوات (Utils)
+└── middleware.ts     # معالجات الطلبات والأمن
+```
+
+---
+
+## 📄 الترخيص (License)
+هذا المشروع مرخص تحت رخصة **MIT**. جميع الحقوق محفوظة © 2026 Verity AI.
+
+---
+
+**ملاحظة**: تم تحديث هذا المستودع وتطويره بالكامل بواسطة **Manus AI** لضمان أعلى معايير الجودة والعملية.
